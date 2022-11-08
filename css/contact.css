@@ -1,0 +1,72 @@
+nav li a:hover{
+    margin: 40px;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(11 178 191);
+    border-radius: 5px;
+    padding: 5px;
+}
+
+
+.Contact::before{
+    content: "";
+    position: absolute;
+    background: url('/Pictures/bg2.avif') no-repeat center center/cover;
+    height: 92%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.5;
+    
+}
+
+
+.Contact_info {
+    text-align: center;
+   
+}
+
+.Contact_info h1{
+    font-size: 7rem;
+    color: rgb(10 153 165);
+    margin-bottom: 30px;
+    padding: 40px 0px;
+    font-family: ui-rounded;
+}
+
+.Contact_info p{
+    color: #cd3838;
+    font-weight:normal;
+    font-size: 30px;
+    margin-bottom: 0px;
+}
+
+.Contact_info .icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 31px 0px;
+}
+
+.Contact_info .icon .icons{
+    font-size: 60px;
+    margin: 22px;
+    color: black;
+}
+
+.Contact_info .icon .icons#insta:hover{
+    color: rgb(239, 27, 62);
+}
+
+.Contact_info .icon .icons#linkin:hover{
+    color: rgb(47, 47, 169);
+}
+.Contact_info .icon .icons#twitter:hover{
+    color: rgb(2, 176, 244);
+}
+.Contact_info .icon .icons#github:hover{
+    color: brown;
+}
+
+
+
+
