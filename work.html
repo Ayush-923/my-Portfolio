@@ -14,8 +14,9 @@
 <body>
   <div class="main">
     <nav>
-      <img src="Pictures/logo.jpg" class="logo" alt="NOT AVAILABLE">
-      <p class="portfolio">PORTFOLIO</p>
+      <a href="index.html" class="start">
+        <img src="Pictures/logo.jpg" class="logo" alt="NOT AVAILABLE">
+      </a>
       <ul>
         <li><a href="index.html">HOME</a></li>
         <li><a href="About.html">ABOUT</a></li>
@@ -30,173 +31,362 @@
   <div class="work" data-aos="fade-down" data-aos-anchor-placement="top-bottom" data-aos-duration="900">
     <h1>My Work</h1>
   </div>
+  <br><br><br>
 
-  <section class="mywork" data-aos="fade-right" data-aos-duration="3000">
-    <div id="container">
+  <div class="cardss">
 
-      <div class="product-details">
+    <!--
+      - article card 1
+    -->
 
-        <h1>VITal</h1>
-        <span class="hint-star star">
-          <i class="fa fa-star" aria-hidden="true"></i>
-          <i class="fa fa-star" aria-hidden="true"></i>
-          <i class="fa fa-star" aria-hidden="true"></i>
-          <i class="fa fa-star" aria-hidden="true"></i>
-          <i class="fa fa-star-o" aria-hidden="true"></i>
-        </span>
+    <article class="article-card" data-aos="fade-down-right" data-aos-duration="1500">
 
-        <p class="information">" Project VITal is a web application designed specially for VIT Bhopal students. It aims
+      <div class="img-box">
+        <img src="./Pictures/vital.png" alt="" class="article-banner">
+      </div>
+  
+  
+      <div class="article-content">
+  
+        <a href="https://github.com/Ayush-923/VITal" target="_blank">
+          <h2 class="article-title">VITal</h2>
+        </a>
+  
+        <p class="article-text">Project VITal is a web application designed specially for VIT Bhopal students. It aims
           to solve problems of students by providing all the vital information and documents that they search for and
           ask seniors about.</p>
-
-        <div class="control">
-
-          <button class="btn">
-            <span class="buy"><a href="#"> See Work</a></span>
-          </button>
-
-        </div>
-
-      </div>
-
-      <div class="product-image">
-
-        <img src="Pictures/vital.png" alt="">
-
-
-        <div class="info">
-          <h2> Services:</h2>
-          <ul>
-            <li><strong>Study Material </strong></li>
-            <li><strong>Clubs and Chapter Details </strong></li>
-            <li><strong> Upcoming Events </strong></li>
-            <li><strong>Hackathons and Road-maps </strong></li>
-
-          </ul>
-        </div>
-      </div>
-    </div>
-
-    <div id="container" data-aos="fade-right" data-aos-duration="1500">
-
-      <div class="product-details">
-
-        <h1>Gym-Website</h1>
-        <span class="hint-star star">
-          <i class="fa fa-star" aria-hidden="true"></i>
-          <i class="fa fa-star" aria-hidden="true"></i>
-          <i class="fa fa-star" aria-hidden="true"></i>
-          <i class="fa fa-star" aria-hidden="true"></i>
-          <i class="fa fa-star-o" aria-hidden="true"></i>
-        </span>
-
-        <p class="information">" I made this project while learning about Web Development. This site contains the
-          details of the local
-          Gym in my area. User can also Join the gym if he likes through The form option available on the site.</p>
-
-
-
-        <div class="control">
-
-          <button class="btn">
-            <span class="buy"><a href="https://ayush-923.github.io/GYM-Website/"> See Work </a></span>
-          </button>
-
-        </div>
-
-      </div>
-
-      <div class="product-image">
-
-        <img src="Pictures/Gym.png" alt="">
-
-      </div>
-    </div>
-
-
-    <div id="container" data-aos="fade-right" data-aos-duration="1500">
-
-      <div class="product-details">
-
-        <h1>Food delivery</h1>
-        <span class="hint-star star">
-          <i class="fa fa-star" aria-hidden="true"></i>
-          <i class="fa fa-star" aria-hidden="true"></i>
-          <i class="fa fa-star" aria-hidden="true"></i>
-          <i class="fa fa-star" aria-hidden="true"></i>
-          <i class="fa fa-star-o" aria-hidden="true"></i>
-        </span>
-
-        <p class="information">" The site contains the details of the food available and the delivery charges for them
-          according to the
-          distance from users place. It also contains a Sponsers section and contact section </p>
-
-
-
-        <div class="control">
-
-          <button class="btn">
-            <span class="buy"> <a href="#"> See Work </a></span>
-          </button>
-
-        </div>
-
-      </div>
-
-      <div class="product-image">
-
-        <img src="Pictures/food.png" alt="">
-
-
-        <!-- <div class="info">
-            <h2> Services:</h2>
-            <ul>
-              <li><strong>Study Material </strong></li>
-              <li><strong>Clubs and Chapter Details </strong></li>
-              <li><strong> Upcoming Events </strong></li>
-              <li><strong>Hackathons and Road-maps </strong></li>
   
-            </ul>
-          </div> -->
-      </div>
-    </div>
-
-    <div id="container" data-aos="fade-right" data-aos-duration="1500">
-
-      <div class="product-details">
-
-        <h1>Dance Website</h1>
-        <span class="hint-star star">
-          <i class="fa fa-star" aria-hidden="true"></i>
-          <i class="fa fa-star" aria-hidden="true"></i>
-          <i class="fa fa-star" aria-hidden="true"></i>
-          <i class="fa fa-star" aria-hidden="true"></i>
-          <i class="fa fa-star-o" aria-hidden="true"></i>
-        </span>
-
-        <p class="information">" This was my 1st website where i used backend and learnt about NodeJS, express using
-          which i build this website altho no backend file is used in it.</p>
-
-
-
-        <div class="control">
-
-          <button class="btn">
-            <span class="buy">See Work</span>
-          </button>
-
+        <div class="acticle-content-footer">
+  
+          <div class="author">
+            <img src="./Pictures/dp.jpg" alt="" class="author-avater">
+  
+            <div class="author-info">
+              <a href="#">
+                <h4 class="author-name">Group Prjoect</h4>
+              </a>
+              <div class="publish-date">28 Jun 2020</div>
+            </div>
+          </div>
+  
         </div>
-
+  
       </div>
+  
+    </article>
+  
+    <!--
+      - article card 2
+    -->
 
-      <div class="product-image">
+    <article class="article-card" data-aos="fade-down-left" data-aos-duration="1500">
 
-        <img src="Pictures/dance.png" alt="">
-
+      <div class="img-box">
+        <img src="./Pictures/Gym.png" alt="" class="article-banner">
       </div>
-    </div>
-  </section>
+  
+  
+      <div class="article-content">
+  
+        <a href="https://github.com/Ayush-923/GYM-Website/" target="_blank">
+          <h2 class="article-title">Gym-Website</h2>
+        </a>
+  
+        <p class="article-text">I made this project while learning about Web Development. This site contains the
+          details of the local Gym in my area. User can also Join the gym if he likes through The form option available on the site.</p>
+  
+        <div class="acticle-content-footer">
+  
+          <div class="author">
+            <img src="./Pictures/dp.jpg" alt="" class="author-avater">
+  
+            <div class="author-info">
+              <a href="#">
+                <h4 class="author-name">Personal Prjoect</h4>
+              </a>
+              <div class="publish-date">07 dec 2021</div>
+            </div>
+          </div>
+  
+        </div>
+  
+      </div>
+  
+    </article>
+  
+  </div>
 
+
+  <div class="cardss">
+
+    <!--
+      - article card 3
+    -->
+
+    <article class="article-card" data-aos="fade-down-right" data-aos-duration="1500">
+
+      <div class="img-box">
+        <img src="./Pictures/food.png" alt="" class="article-banner">
+      </div>
+  
+  
+      <div class="article-content">
+  
+        <a href="#">
+          <h2 class="article-title">Food delivery</h2>
+        </a>
+  
+        <p class="article-text">The site contains the details of the food available and the delivery charges for them
+          according to the distance from users place. It also contains a Sponsers section and contact section</p>
+  
+        <div class="acticle-content-footer">
+  
+          <div class="author">
+            <img src="./Pictures/dp.jpg" alt="" class="author-avater">
+  
+            <div class="author-info">
+              <a href="#">
+                <h4 class="author-name">Personal Prjoect</h4>
+              </a>
+              <div class="publish-date">21 Dec 2021</div>
+            </div>
+          </div>
+  
+        </div>
+  
+      </div>
+  
+    </article>
+  
+    <!--
+      - article card 4
+    -->
+
+    <article class="article-card" data-aos="fade-down-left" data-aos-duration="1500">
+
+      <div class="img-box">
+        <img src="./Pictures/dance.png" alt="" class="article-banner">
+      </div>
+  
+  
+      <div class="article-content">
+  
+        <a href="#">
+          <h2 class="article-title">Dance Website</h2>
+        </a>
+  
+        <p class="article-text">This was my 1st website where i used backend and learnt about NodeJS, express using
+          which i build this website altho no backend file is used in it.</p>
+  
+        <div class="acticle-content-footer">
+  
+          <div class="author">
+            <img src="./Pictures/dp.jpg" alt="" class="author-avater">
+  
+            <div class="author-info">
+              <a href="#">
+                <h4 class="author-name">Personal Prjoect</h4>
+              </a>
+              <div class="publish-date">07 Jan 2022</div>
+            </div>
+          </div>
+  
+        </div>
+  
+      </div>
+  
+    </article>
+  
+  </div>
+  
+  <div class="cardss">
+
+    <!--
+      - article card 5
+    -->
+
+    <article class="article-card" data-aos="fade-down-right" data-aos-duration="1500">
+
+      <div class="img-box">
+        <img src="./Pictures/geospace.jpg" alt="" class="article-banner">
+      </div>
+  
+  
+      <div class="article-content">
+  
+        <a href="#">
+          <h2 class="article-title">Geo Space</h2>
+        </a>
+  
+        <p class="article-text">This websites helps you with finding the best possible accomodation recommendations to ease up your living in home 
+          far from home. You can search and look for the various hostels and PGs available in your preferred cities. This is one stop solution for 
+          your accomodation problems.</p>
+  
+        <div class="acticle-content-footer">
+  
+          <div class="author">
+            <img src="./Pictures/dp.jpg" alt="" class="author-avater">
+  
+            <div class="author-info">
+              <a href="#">
+                <h4 class="author-name">Group Prjoect</h4>
+              </a>
+              <div class="publish-date">24 Feb 2022</div>
+            </div>
+          </div>
+  
+        </div>
+  
+      </div>
+  
+    </article>
+  
+    <!--
+      - article card 6
+    -->
+
+    <article class="article-card" data-aos="fade-down-left" data-aos-duration="1500">
+
+      <div class="img-box">
+        <img src="./Pictures/Calculator.png" alt="" class="article-banner">
+      </div>
+  
+  
+      <div class="article-content">
+  
+        <a href="#">
+          <h2 class="article-title">Calculator</h2>
+        </a>
+  
+        <p class="article-text">A calculator app made with HTML, CSS, and JavaScript is a web-based app that features buttons for basic arithmetic operations, with JavaScript used to perform the calculations based on user input. </p>
+  
+        <div class="acticle-content-footer">
+  
+          <div class="author">
+            <img src="./Pictures/dp.jpg" alt="" class="author-avater">
+  
+            <div class="author-info">
+              <a href="#">
+                <h4 class="author-name">Personal Prjoect</h4>
+              </a>
+              <div class="publish-date">07 Jan 2022</div>
+            </div>
+          </div>
+  
+        </div>
+  
+      </div>
+  
+    </article>
+  
+  </div>
+  
+  <div class="cardss">
+
+    <!--
+      - article card 5
+    -->
+
+    <article class="article-card" data-aos="fade-down-right" data-aos-duration="1500">
+
+      <div class="img-box">
+        <img src="./Pictures/geospace.jpg" alt="" class="article-banner">
+      </div>
+  
+  
+      <div class="article-content">
+  
+        <a href="#">
+          <h2 class="article-title">Geo Space</h2>
+        </a>
+  
+        <p class="article-text">This websites helps you with finding the best possible accomodation recommendations to ease up your living in home 
+          far from home. You can search and look for the various hostels and PGs available in your preferred cities. This is one stop solution for 
+          your accomodation problems.</p>
+  
+        <div class="acticle-content-footer">
+  
+          <div class="author">
+            <img src="./Pictures/dp.jpg" alt="" class="author-avater">
+  
+            <div class="author-info">
+              <a href="#">
+                <h4 class="author-name">Group Prjoect</h4>
+              </a>
+              <div class="publish-date">24 Feb 2022</div>
+            </div>
+          </div>
+  
+        </div>
+  
+      </div>
+  
+    </article>
+  
+    <!--
+      - article card 6
+    -->
+
+    <article class="article-card" data-aos="fade-down-left" data-aos-duration="1500">
+
+      <div class="img-box">
+        <img src="./Pictures/Calculator.png" alt="" class="article-banner">
+      </div>
+  
+  
+      <div class="article-content">
+  
+        <a href="#">
+          <h2 class="article-title">Calculator</h2>
+        </a>
+  
+        <p class="article-text">A calculator app made with HTML, CSS, and JavaScript is a web-based app that features buttons for basic arithmetic operations, with JavaScript used to perform the calculations based on user input. </p>
+  
+        <div class="acticle-content-footer">
+  
+          <div class="author">
+            <img src="./Pictures/dp.jpg" alt="" class="author-avater">
+  
+            <div class="author-info">
+              <a href="#">
+                <h4 class="author-name">Personal Prjoect</h4>
+              </a>
+              <div class="publish-date">07 Jan 2022</div>
+            </div>
+          </div>
+  
+        </div>
+  
+      </div>
+  
+    </article>
+  
+  </div>
+  
+  
+  
+  
+  
+    <!--
+      - internal script
+    -->
+    <script>
+  
+      const shareOption = document.querySelector('.share-option');
+  
+      document.querySelector('.share-button').addEventListener('click', function () {
+        this.classList.toggle('active');
+        shareOption.classList.toggle('active');
+      });
+  
+    </script>
+  
+    <!--
+      - ionicon link
+    -->
+  
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script>
