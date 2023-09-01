@@ -1,100 +1,114 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-*{
+
+* {
     margin: 0;
     padding: 0;
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-body{    
-     background-image: linear-gradient(to right, #b3bdffb5, #ffe9e6)
+html {
+    min-height: 100%;
+    overflow-y: scroll;
 }
 
-.main{
+body {
+    min-height: 100%;
+}
+
+body {
+    background-image: linear-gradient(to right, #b3bdffb5, #ffe9e6);
+}
+
+.main {
     position: relative;
     width: 100%;
 }
 
-nav{
+nav {
     display: flex;
     width: 100%;
     padding: 10px 0;
     align-items: center;
     justify-content: space-between;
     background-color: white;
-    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .2);
 }
 
-nav img.logo{
-    width: 2%;
+nav img.logo {
+    width: 8%;
     margin-left: 29px;
 
 }
 
-nav p.portfolio{
+nav p.portfolio {
     margin-right: auto;
-    font-family: cursive;}
+    font-family: cursive;
+}
 
-nav ul li{
+nav ul li {
     display: inline-block;
     list-style: none;
     margin: 10px 20px;
 }
 
-nav li a{
+nav li a {
     margin: 40px;
     text-decoration: none;
     color: black;
     padding: 5px;
 }
 
-nav li a:hover{
-   
+nav li a:hover {
+
     color: white;
     background-color: #d1002d;
     border-radius: 5px;
-    
+
 }
 
-.details{
+.details {
     padding: 20px 60px;
 }
 
-h3{
+h3 {
     padding-top: 50px;
 }
 
-span{
+span {
     color: darkorange;
     font-weight: bolder;
 }
 
 /* Main body */
 
-.details{
-    padding: 167px 50px;
+.details {
+    padding: 120px 50px;
     margin-top: 2%;
     margin-left: 3%;
 }
 
-.details p{
+.details p {
     font-size: 4.5rem;
     line-height: 1.4;
 }
 
-.details h4{
+.details h4 {
     font-size: 1.5rem;
     font-weight: lighter;
     font-family: 'Poppins', sans-serif;
 }
 
-.pic{
-    top: 15%;
-    right: 2px;
+.pic {
+    top: 25%;
+    right: 150px;
     position: absolute;
-    width: 52%;
+    width: 25%;
+    border-radius: 100px;
+    border: 10px solid white;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 10);
 }
 
-button.CV{
+button.CV {
     border: 2px solid black;
     border-radius: 7px;
     padding: 10px 15px;
@@ -103,11 +117,11 @@ button.CV{
     background-color: #d83c3c;
 }
 
-button.CV a{
+button.CV a {
     text-decoration: none;
     color: black;
 }
 
-button.CV a:hover{
+button.CV a:hover {
     color: white;
 }
