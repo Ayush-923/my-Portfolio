@@ -6,49 +6,111 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PORTFOLIO</title>
-    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
     <div class="main">
         <nav>
-          <img src="Pictures/logo.jpg" class="logo" alt="NOT AVAILABLE">
-          <p class="portfolio">PORTFOLIO</p>
-          <ul>
-            <li><a href="index.html">HOME</a></li>
-            <li><a href="About.html">ABOUT</a></li>
-            <li><a href="work.html">WORK</a></li>
-            <li><a href="contact.html">CONTACT</a></li>
-          </ul>
+            <a href="index.html" class="start">
+                <img src="Pictures/logo.jpg" class="logo" alt="NOT AVAILABLE">
+            </a>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="About.html">ABOUT</a></li>
+                <li><a href="work.html">WORK</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
         </nav>
-      </div>
-      
-      <section class="Contact">
-        <div class="Contact_info">
-            <h1>CONTACT ME</h1>
-            <p>In order to work with me in projects or to hire me.</p>
-        </p>
-        <div class="icon">
-            <a href="https://www.instagram.com/ayush.__7/" class="icons" id="insta" target="_blank">
-            <ion-icon name="logo-instagram"></ion-icon>
-            </a>
+    </div>
 
-            <a href="https://www.linkedin.com/in/ayush-kumar-gupta-0bb57b203/" class="icons" id="linkin" target="_blank">
-                <ion-icon name="logo-linkedin"></ion-icon>
-            </a>
+    <section>
+        <div class="container">
+            <div class="contactInfo">
+                <div>
+                    <h2>Contact Info</h2>
+                    <ul class="info">
+                        <li>
+                            <span><img src="./Pictures/images/location.png"></span>
+                            <span>House No. 297, Azad Nagar<br>
+                                Rasra, UP<br>
+                                11472</span>
+                            </span>
+                        </li>
+                        <li>
+                            <span><img src="./Pictures//images/mail.png"></span>
+                            <span><a href="mailto: ayush.ag651@gmail.com">ayush.ag651@gmail.com</a></span>
+                        </li>
+                        <li>
+                            <span><img src="./Pictures//images/call.png"></span>
+                            <span>9140709893</span>
+                        </li>
 
-            <a href="" class="icons" id="twitter" target="_blank">
-                <ion-icon name="logo-twitter"></ion-icon>
-            </a>
+                    </ul>
+                </div>
+                <ul class="sci">
+                    <li><a href="https://www.github.com/Ayush-923/"><img src="./Pictures//images/1.png"></a></li>
+                    <li><a href="https://www.instagram.com/ayush.__7/"><img src="./Pictures//images/3.png"></a></li>
+                    <li><a href="https://twitter.com/Ayush161"><img src="./Pictures//images/2.png"></a></li>
+                    <li><a href="https://www.linkedin.com/in/Ayush-923/"><img src="./Pictures//images/5.png"></a></li>
 
-            <a href="https://github.com/Ayush-923" class="icons" id="github" target="_blank">
-                <ion-icon name="logo-github"></ion-icon>
-            </a>
+                </ul>
+            </div>
+            <div class="contactForm" onsubmit="sendEmail()">
+                <h2>Send a Message</h2>
+                <form id="form">
+                <div class="formBox">
+                    <div class="inputBox w50">
+                        <input type="text" name="" required>
+                        <span>First Name</span>
+                    </div>
+                    <div class="inputBox w50">
+                        <input type="text" required>
+                        <span>Last Name</span>
+                    </div>
+                    <div class="inputBox w50">
+                        <input id="email"  type="email" required>
+                        <span>Email Address</span>
+                    </div>
+                    <div class="inputBox w50">
+                        <input type="text" required>
+                        <span>Mobile Number</span>
+                    </div>
+                    <div class="inputBox w100">
+                        <textarea id="messg" required></textarea>
+                        <span>Write your message here...</span>
+                    </div>
+                    <div class="inputBox w100">
+                        <button type="submit">Submit</button>
+                    </div>
+                </div>
+            
+            </div>
+    </section>
 
-            <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
-        </div>
-        </div>
-      </section>
+<!-- 
+    <script src="https://smtpjs.com/v3/smtp.js">
+    </script>
+
+    <script>
+
+        function sendEmail() {
+
+        Email.send({
+            Host: "smtp.elasticemail.com",
+            Username: "ayush.ag751@gmail.com",
+            Password: "D56DFA9D4CAF47FBF6837CF7981D922DEB76",
+            To: 'ayush.ag751@gmail.com',
+            From: document.getElementById('email').value,
+            Subject: "POrtfolio Notificationss..",
+            Body: document.getElementById('messg').value
+        }).then(
+            message => alert(message)
+        );
+
+    }
+    </script> -->
 </body>
+
 </html>
